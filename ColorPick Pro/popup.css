@@ -1,0 +1,56 @@
+body {
+    background: #f1f5f9;
+    font-family: 'Inter', sans-serif;;
+}
+.wrapper {
+    width: 300px;
+    padding: 10px;
+}
+
+h3{
+    color:#363535;
+    margin-bottom: 0px;
+}
+
+h4{
+    color: #747474;
+    margin-top: 8px;
+}
+
+.changeColorBtn {
+    margin: 10px 0px 10px 170px;
+    font-size: 16px;
+    /* width: 150px; */
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background: #7A09D3;
+    cursor: pointer;
+    color: var(--neutral-50, #E6E7E6);
+    text-align: center;
+}
+
+.colorGrid {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.selectedColor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue {
+    margin-left: 10px;
+    /* margin-top: -10px; */
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.colorCopy{
+    margin-top: 5px;
+}

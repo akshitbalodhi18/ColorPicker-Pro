@@ -1,0 +1,23 @@
+{
+    "name": "ColorPick Pro",
+    "description": "ColorPick Pro is a lightweight Chrome extension that empowers you to effortlessly extract any color from your screen.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "notifications"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "/images/eye-dropper_16.png",
+        "32": "/images/eye-dropper_32.png",
+        "128": "/images/eye-dropper_128.png"
+    }
+}
